@@ -1,13 +1,12 @@
-# Talk - Improve DevX at scale with Serverless
+# Talk - From Friction to Flow: Enabling Collaboration and Developer Experience at Scale
 
-This repository has slides and demo resources for the talk [Improve DevX at scale with Serverless](https://2023.geecon.org/speakers/info.html?id=793) at the [GeeCon 2023, Kraków](https://2023.geecon.org/).
+This repository has slides and demo resources for the talk **From Friction to Flow: Enabling Collaboration and Developer Experience at Scale** at the [devopsdays 2023, Madrid](https://devopsdays.org/events/2023-madrid/welcome/).
 
 ## Resources
 
-- [Talk](https://2023.geecon.org/speakers/info.html?id=793)
+- [Slides](https://npalm.github.io/2023-10-06-devopsdays-madrid/)
 - [Terraform module AWS GitHub runners](https://github.com/philips-labs/terraform-aws-github-runner)
 - [Terraform module OIDC](https://github.com/philips-labs/terraform-aws-github-oidc)
-- [Slides](https://npalm.github.io/2023-04-20-geecon-devx/)
 
 ## Speaker
 
