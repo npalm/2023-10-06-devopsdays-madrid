@@ -17,6 +17,3 @@ runner_config:
   runners_maximum_count: 1
   scale_down_schedule_expression: cron(0/15 * * * ? *)
   runner_boot_time_in_minutes: 20
-  ami_filter:
-    name:
-      - Windows_Server-2022-English-Core-ContainersLatest-*

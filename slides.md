@@ -208,6 +208,29 @@ NOTES
 
 ---
 
+![bg left](assets/robot.jpg)
+
+<!--
+_backgroundColor: #D10077
+_color: #EABEDB
+-->
+
+# Source needs CI/CD
+
+- First class citizen
+
+- As easy as for Open Source
+
+- But with entrpise needs
+
+<!-- 
+
+NOTES 
+
+-->
+
+---
+
 <!--
 _backgroundColor: #D10077
 _color: #93C2F8
@@ -312,8 +335,30 @@ _color: #144835
 -->
 
 
+
 ---
 
+<!--
+_backgroundColor: #D10077
+_color: #93C2F8
+-->
+
+<!--
+_backgroundColor: #008540
+_color: #144835
+-->
+
+# <!-- fit --> Ask AI?
+
+![bg left](assets/chatgpt.png)
+
+<!-- 
+
+
+-->
+
+
+---
 <!--
 _backgroundColor: #D10077
 _color: #6D1E4A
@@ -542,24 +587,6 @@ section {
 ![bg right](assets/count.png)
 
 
----
-
-<!--
-_backgroundColor: #8345BA
-_color: #3D0F58
--->
-
-# Deployment
-
-* Deploy runners with the runners
-* Passwordless deployment with OIDC
-* Linux x64, Linux arm64, Windows
-* Improvements and extension through InnerSource
-* Connect to Philips with AWS Direct Connect
-
-![bg right:30%](assets/droste.jpeg)
-
-
 
 ---
 
@@ -587,33 +614,6 @@ _color: #93C2F8
 
 ---
 
-<!--
-_backgroundColor:  #002C77
-_color: #93C2F8
--->
-
-# CI DOS Attack
-
-<style scoped>
-section {
-  text-align: center;
-}
-</style>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-![bg 50%](assets/sqs-graph.png)
-We don't own it - It just work - We dont care
-
----
-
 # Limits
 
 ![bg](assets/rate-limit.jpeg)
@@ -626,38 +626,12 @@ _backgroundColor:  red
 _color: yellow
 -->
 
-# <!-- fit --> 🔥 Mission critical 🔥
+# <!-- fit --> 🔥 🔥 🔥 🔥 🔥
 
 
-![bg right](assets/smoke.png)
+![bg](assets/smoke.png)
+![bg](assets/lambda.png)
 
-
----
-
-
-<!--
-_backgroundColor:  red
-_color: yellow
--->
-
-# <!-- fit --> 🔥 🔥 🔥 🔥 🔥 🔥
-
-
-![bg left:60%](assets/duration.png)
-
-
----
-
-
-<!--
-_backgroundColor:  #002C77
-_color: #93C2F8
--->
-
-# <!-- fit --> 🚀 We are back 🚀
-
-
-![bg right](assets/lego.jpeg)
 
 ---
 
@@ -667,6 +641,7 @@ _backgroundColor: #110d0d
 _color: #0072DA
 -->
 
+# <!-- fit --> 🚀 Developer Experience 🚀
 
 
 * How do we onboard members?
@@ -740,12 +715,12 @@ _backgroundColor: #000000
 _color: #0072DA
 -->
 
-# 🚀 Eanble
+# 🚀 Enable via configuration
 
-- Define software assets via caatalog file
+- Define software assets as code (catalog file)
 - Enable plugins via annotation
 - Default integrations enabled
-- No need to build a UI
+- No extra development efforts required
 
 ---
 
@@ -773,7 +748,7 @@ _color: #0072DA
 
 ![bg right:48%](assets/backstage-aws.png)
 
-# <!-- fit --> 🥲 not 100% serverless
+# <!-- fit --> :rocket: also serverless
 
 - ALB to enforce SSO login
 - Fargate to serve Backstage 

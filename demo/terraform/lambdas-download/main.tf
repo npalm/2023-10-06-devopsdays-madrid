@@ -1,10 +1,10 @@
 locals {
-  version = "v3.0.2"
+  version = "v4.4.0"
 }
 
 module "lambdas" {
   source  = "philips-labs/github-runner/aws//modules/download-lambda"
-  version = "3.0.2"
+  version = "4.4.0"
   lambdas = [
     {
       name = "webhook"
