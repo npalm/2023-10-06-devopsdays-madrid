@@ -7,12 +7,12 @@ locals {
 }
 
 resource "random_id" "random" {
-  byte_length = 19
+  byte_length = 18
 }
 
 module "runners" {
   source                            = "philips-labs/github-runner/aws//modules/multi-runner"
-  version                           = "4.4.0"
+  version                           = "4.4.1"
   multi_runner_config               = local.multi_runner_config
   aws_region                        = local.aws_region
   vpc_id                            = module.vpc.vpc_id
@@ -39,7 +39,8 @@ module "runners" {
 
 module "webhook-github-app" {
   source  = "philips-labs/github-runner/aws//modules/webhook-github-app"
-  version = "4.4.0"
+  version = "4.4.1"
+  depends_on = [ module.runners ]
 
   github_app = {
     key_base64     = var.github_app.key_base64

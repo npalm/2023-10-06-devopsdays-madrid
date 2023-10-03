@@ -490,15 +490,16 @@ section {
 
 # <!-- fit --> 📢 DEMO
 
-* Create cloud resources
-* Configure webhook
-* Run jobs on Linux / Windows
+
 
 ![bg right](assets/building.jpeg)
 
 
 ---
 
+
+
+---
 <!--
 _backgroundColor: #269A91
 _color: #244C5D
@@ -603,18 +604,20 @@ _backgroundColor:  #002C77
 _color: #93C2F8
 -->
 
-# Speed
+# <!-- fit --> 🚀💨 
+# <!-- fit --> speed
 
+
+![bg left](assets/speed.png)
+<!--
 * Caching GitHub runner binary
 * Pre-build AMI
 * Utilize Insance store
-
-![bg left](assets/speed.png)
-
+-->
 
 ---
 
-# Limits
+#  🚫 Limits 🚫
 
 ![bg](assets/rate-limit.jpeg)
 
@@ -722,6 +725,8 @@ _color: #0072DA
 - Default integrations enabled
 - No extra development efforts required
 
+![bg right:40%](assets/nft.jpeg)
+
 ---
 
 <!--
@@ -781,7 +786,7 @@ _backgroundColor: #D10077
 _color: #EABEDB
 -->
 
-# Welcome new members
+# Data pipe
 
 <br>
 <br>

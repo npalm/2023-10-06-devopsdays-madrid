@@ -18,5 +18,5 @@ runner_config:
   instance_types:
     - t4g.large
     - c6g.large
-  runners_maximum_count: 5
+  runners_maximum_count: 25
   scale_down_schedule_expression: cron(* * * * ? *)
