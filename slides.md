@@ -150,10 +150,10 @@ _color: yellow
 
 ![bg right](assets/road.jpg)
 
-# Challenges
+# Challenges 🤔 🤔 🤔
 
-- Hard to start
 - Hard to collaborate
+- Hard to start and deliver
 - Hard to unlock new features
 - Hard to automate common tasks
 
@@ -215,13 +215,13 @@ _backgroundColor: #D10077
 _color: #EABEDB
 -->
 
-# Source needs CI/CD
+# Atumation as a habit
 
-- First class citizen
+- CI/CD a First-class citizen
 
 - As easy as for Open Source
 
-- But with entrpise needs
+- But with enterprise needs
 
 <!-- 
 
@@ -244,7 +244,7 @@ on: [push]
 jobs:
   check-bats-version:
     runs-on: [ubuntu-latest]
-    container: node:16
+    container: node:20
     steps:
       - uses: actions/checkout@v3
       - run: npx bats -v
@@ -414,7 +414,7 @@ h2 {
 
 # <!-- fit --> Treat as Cattle
 
-## Secure and no fire fighting
+## Secure and no firefighting
 
 
 ---
@@ -446,12 +446,12 @@ _backgroundColor: #000000
 _color: #93C2F8
 -->
 
-# <!-- fit --> 💡 Event based / serverless / cattle / byon 💡
+# <!-- fit --> 💡 Scalable self-hosted 💡
 
 
 ![90%](assets/idea2.png)
 
-
+<!-- 
 ---
 
 <!--
@@ -465,26 +465,6 @@ section {
 }
 </style>
 
-# Scalable self-hosted
-
-**Serverless** contol plane handling events from GitHub to scale self-hosted (ephemeral) Linux / Windows runners on **AWS EC2 (Spot) Instances**
-
-**Terraform module** with out of the box working configuration which can be tailored to  specific use-cases.
-
-
-<!--  
-* GitHub App for events
-* AWS API gateway to get events
-* AWS Lambda for event handling
-* AWS SQS for decoupling
-* AWS Lambda to scale up
-* GitHub App for API access
-* AWS EC2 (Spot) to run jobs
-* AWS Direct connect for networking
-* AWS Lambda for scaling down -->
-
-![bg right](assets/architecture.jpg)
-
 
 ---
 
@@ -494,8 +474,6 @@ section {
 
 ![bg right](assets/building.jpeg)
 
-
----
 
 
 
@@ -535,37 +513,37 @@ topics we could cover
 
  -->
 
----
-
-<!--
-_backgroundColor: #DE7C00
-_color: #9B3426
--->
-
-# <!-- fit --> Running at Scale
-
-# <!-- fit --> in Philips
-
-![bg right](assets/lichttoren.jpg)
-
----
-
-
-<!--
-_backgroundColor: #DE7C00
-_color: #9B3426
--->
-
-# <!-- fit --> Running at Scale
-
-# <!-- fit --> in Philips
-
-
-![bg left](assets/usages-philips.png)
 
 
 ---
 
+
+<style scoped>
+h1 {
+  text-align: center;
+  padding-top: 5.1em;
+  /* align text at the bottom */
+  font-size: 120px;
+  bottom: 9;
+  color: lightblue;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+
+strong {
+    font-weight: bold;
+    color: green;
+}
+</style>
+
+![bg](assets/lichttoren.jpg)
+![bg](assets/usages-philips.png)
+
+
+# Running at Scale
+
+
+---
 
 <!--
 _backgroundColor: #191a1a
@@ -647,13 +625,12 @@ _color: #0072DA
 # <!-- fit --> 🚀 Developer Experience 🚀
 
 
-* How do we onboard members?
-* How to bootstrap a repository?
-* How can we automate tasks?
-* How do find our software assets?
-* How to make documentation easy?
+* Productivity - Am I enabled?
+* Impact - Can I focus on my job?
+* Statisfaction - Do I have the right environment?
 
-![bg right:49%](assets/lego.jpeg)
+
+![bg right:30%](assets/lego.jpeg)
 
 ---
 
@@ -723,7 +700,7 @@ _color: #0072DA
 - Define software assets as code (catalog file)
 - Enable plugins via annotation
 - Default integrations enabled
-- No extra development efforts required
+- No extra development effort required
 
 ![bg right:40%](assets/nft.jpeg)
 
@@ -773,38 +750,11 @@ _color: #EABEDB
 * Assist to do it right - scaffolding
 * Avoid shadow IT - e.g. runners
 * Continuous compliance - rule based
-* Guide - welcome issue new members
 
 ![bg left:40%](assets/control.jpeg)
 
-
 ---
 
-
-<!--
-_backgroundColor: #D10077
-_color: #EABEDB
--->
-
-# Data pipe
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-![bg 70%](assets/events.png)
-
----
 <!--
 _backgroundColor: black
 -->
